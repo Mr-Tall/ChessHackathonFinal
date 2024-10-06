@@ -1,0 +1,151 @@
+/* Beginner.css */
+
+/* Main Container */
+.beginner-container {
+    text-align: center; /* Centers all text within the container */
+    padding: 2rem;
+    background-color: #f5f5f5; /* Light background to contrast with dark elements */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Page Title */
+.page-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #3e2723; /* Dark Coffee theme */
+}
+
+/* Lesson Content */
+.lesson-content {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #4e342e; /* Slightly lighter Coffee color */
+    max-width: 600px;
+}
+
+/* Chessboard Wrapper */
+.chessboard-wrapper {
+    margin-bottom: 2rem;
+}
+
+/* Move History */
+.move-history {
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #ffffff; /* White background for readability */
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.move-history h2 {
+    margin-bottom: 1rem;
+    color: #3e2723;
+}
+
+.history-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.history-list li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;           /* Use flexbox for layout */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 1rem;              /* Adds space between the buttons */
+    margin-top: 2rem;       /* Adds space above the button group */
+}
+
+/* Button Styles */
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Individual Button Colors with Hover Effects */
+.btn-about {
+    background-color: #FFFDD0;  /* Cream */
+}
+
+.btn-about:hover {
+    background-color: #f0e68c; /* Darker Cream on hover */
+}
+
+.btn-beginner {
+    background-color: #28a745;  /* Green */
+    color: #fff;
+}
+
+.btn-beginner:hover {
+    background-color: #218838; /* Darker Green on hover */
+}
+
+.btn-intermediate {
+    background-color: #FFFF00; /* Yellow */
+    color: #000;
+}
+
+.btn-intermediate:hover {
+    background-color: #e0e000; /* Darker Yellow on hover */
+}
+
+.btn-advanced {
+    background-color: #e74c3c;  /* Red */
+    color: #fff;
+}
+
+.btn-advanced:hover {
+    background-color: #c0392b; /* Darker Red on hover */
+}
+
+/* Body Styles (Optional: Typically defined globally) */
+body {
+    background-color: #3e2723; /* Dark Coffee theme */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff; /* White color for links */
+    background-color: #6f4c3e; /* Match to Coffee theme */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px;
+    transition: 0.1s all ease-in;
+}
+
+a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 2px 0 #349eff; /* Add hover effects */
+}
+
+/* Optional: Remove or repurpose the .key classes if not needed */
+/* .key classes can be removed or adjusted based on your page's requirements */
